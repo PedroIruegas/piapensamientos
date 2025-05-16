@@ -68,3 +68,39 @@ footer {
   background-color: #e0e0e0;
   margin-top: 2rem;
 }
+
+section.reporte {
+  background-color: #ffffff;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 3rem auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+form label {
+  display: block;
+  margin: 0.5rem 0 0.2rem;
+  font-weight: bold;
+}
+
+form input, form select, form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #0055aa;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #003366;
+}
